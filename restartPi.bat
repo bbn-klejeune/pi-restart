@@ -69,7 +69,6 @@ IF "%Pi%" == ""  Set "Port=22"
 IF "%Pi%" == "1" Set "Port=22248"
 IF "%Pi%" == "2" Set "Port=22249"
 IF "%Port%" == "0" Set "Port=%Pi%"
-ELSE Set "Port=%Pi%"
 Echo.
 Echo.
 Echo.
